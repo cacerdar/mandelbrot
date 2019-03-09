@@ -1,6 +1,6 @@
-High Performance Computing<br />
+<b>High Performance Computing<br />
 Generación de Imágenes Mandelbrot<br />
-Programación multihebra con OpenMP<br /><br />
+Programación multihebra con OpenMP<br /><br /><b>
 
 ./mandelbrot -i 500 -a -1 -b -1 -c 1 -d 1 -s 0.001 -f out.raw<br />
 -i: número máximo de iteraciones<br />
