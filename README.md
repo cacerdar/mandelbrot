@@ -1,23 +1,24 @@
-High Performance Computing
-Generación de Imágenes Mandelbrot
-Programación multihebra con OpenMP
+High Performance Computing__
+Generación de Imágenes Mandelbrot__
+Programación multihebra con OpenMP____
 
-./mandelbrot -i 500 -a -1 -b -1 -c 1 -d 1 -s 0.001 -f out.raw
--i: número máximo de iteraciones
--a: límite inferior del componente real del plano complejo
--b: límite inferior del componente imaginario
--c: límite superior del componente real
--d: límite superior del componente imaginario
--s: muestreo
--f: imagen de salida en formato raw.
+./mandelbrot -i 500 -a -1 -b -1 -c 1 -d 1 -s 0.001 -f out.raw__
+-i: número máximo de iteraciones__
+-a: límite inferior del componente real del plano complejo__
+-b: límite inferior del componente imaginario__
+-c: límite superior del componente real__
+-d: límite superior del componente imaginario__
+-s: muestreo__
+-f: imagen de salida en formato raw.__
 
+__
+__
 
-
-Para compilar
-
- $ make 
-
-Para limpiar objetos y ejecutable
- 
-  make clean
+Para compilar__
+__
+ $ make __
+__
+Para limpiar objetos y ejecutable__
+ __
+  make clean__
 
